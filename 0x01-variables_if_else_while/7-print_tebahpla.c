@@ -4,17 +4,17 @@
  *
  * Return: Always 0 (Success/correct)
  */
+
 int main(void)
-
 {
-int i;
+char alphabet;
 
-for (i = 0; i < 10; i++)
+for (alphabet = 122; alphabet >= 97; alphabet--)
 {
-printf("%i", i);
+putchar(alphabet);
 }
 
-printf("\n");
+putchar('\n');
 
 return (0);
 
