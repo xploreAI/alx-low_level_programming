@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+char task[] = "_putchar";
+int c;
+
+for (c = 0; c < 8; c++)
+{
+	_putchar(task[c]);
+}
+_putchar('\n');
 return (0);
 }
